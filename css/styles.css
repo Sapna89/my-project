@@ -92,8 +92,12 @@ a:hover, a:active {
 	margin: 0 0;
 }
 
+/*.subContactContent {
+	height: 82%;
+}*/
+
 .mainBlogContent article.mainArticle, .mainResumeContent section.mainSection {
-	padding-top: 100px;
+	margin-top: 500px; /*Why is this not working??*/
 	width: 80%;
     height: auto;
     clear: both;
@@ -102,8 +106,7 @@ a:hover, a:active {
 }
 
 .mainContactContent div.contactInfo {
-    padding: 100px 0px 2px 0px;
-	width: 50%;
+	width: 30%;
 	color: #FFF;
 	height: auto;
     clear: both;
@@ -135,8 +138,8 @@ a:hover, a:active {
 .mainContactContent aside {
 	background-color: #5C5C5C;
 	color: #FFF;
-	width: 75%;
-	padding-left: 25%;
+	width: 90%;
+	padding-left: 35%;
 	/*clear: both;
     margin: 0  auto;*/
 	/*height: 100px;*/
@@ -144,7 +147,7 @@ a:hover, a:active {
 	/*float: right;*/
 }
 
-.mainBlogContent article.mainArticle div {
+.mainBlogContent article.mainArticle footer {
 	color: #949494;
 	font-style: italic;
 	text-align: right;
@@ -152,17 +155,10 @@ a:hover, a:active {
 
 .mainBlogContent article.mainArticle h3, .mainResumeContent section.mainSection h3 {
 	font-weight: bold;
-    font-size: 18px;
-	/*text-decoration: underline;*/	
+	text-decoration: underline;	
 }
 
-
-/*Styling of smooth slide*/ 
-
-
 /*Styling of main footer*/ 
-
-
 
 .mainFooter {  
 	width: 100%;                               
@@ -180,7 +176,7 @@ a:hover, a:active {
 	width: 100%;                               
     height: 5px;  
     margin: 0 0; 
-    background-color: #FFF;   
+    background-color: #FFF;                          
 }
 
 .mainBlogFooter p, .mainResumeFooter p, .mainContactFooter p {
