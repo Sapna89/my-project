@@ -8,8 +8,8 @@ var myTwitterImg = document.createElement('img');
 var myFbImg = document.createElement('img');
 // var myGplusImg = document.createElement('img');
 
-myTwitterImg.setAttribute('src', 'img/twitter.png');
-myFbImg.setAttribute('src', 'img/facebook.png');
+myTwitterImg.setAttribute('src', 'img/twitter.PNG');
+myFbImg.setAttribute('src', 'img/facebook.PNG');
 // myGplusImg.setAttribute('src', 'img/g+.png');
 
 myTwitterLink.appendChild(myTwitterImg);
