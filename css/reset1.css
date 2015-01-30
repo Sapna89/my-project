@@ -22,6 +22,7 @@ input[type=checkbox] ~ div {
 	opacity: 0;
 	overflow: hidden;
 	white-space: wrap;
+	text-align: justify;
    -webkit-transition:all 1s ease;  
     transition:all 1s ease;  
 	
@@ -31,11 +32,14 @@ input[type=checkbox]:checked ~ div {
 	max-height: 100%;
 	max-width: 100%;
 	opacity: 1;
+	/*height: auto;*/
+	/*padding: 2px 4px 2px 4px;*/
 	padding: 0px 0px 50px 0px;
+	text-wrap: normal;
 }
 
 input[type=checkbox] + label:before {
-	transform-origin:25% 50%;
+	transform-origin: 25% 50%;
   border: 8px solid transparent;
   border-width: 8px 12px;	
   border-left-color: white;
