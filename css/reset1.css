@@ -21,7 +21,7 @@ input[type=checkbox] ~ div {
 	max-width: 1px;
 	opacity: 0;
 	overflow: hidden;
-	white-space:nowrap;
+	white-space: wrap;
    -webkit-transition:all 1s ease;  
     transition:all 1s ease;  
 	
@@ -31,7 +31,7 @@ input[type=checkbox]:checked ~ div {
 	max-height: 100%;
 	max-width: 100%;
 	opacity: 1;
-	padding: 0px 0px 70px 0px;
+	padding: 0px 0px 50px 0px;
 }
 
 input[type=checkbox] + label:before {
